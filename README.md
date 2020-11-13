@@ -60,6 +60,7 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
+## Instalação
 Seja bem vindo ao Tray-Contatos.
 Oque é o Tray-Contatos ?  Tray-Contatos é projeto de teste feito em PHP 7 com LARAVEL 4. Bancos de dados: MYSQL ou PGSQL;
 
