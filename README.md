@@ -59,3 +59,40 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+Seja bem vindo ao Tray-Contatos.
+Oque é o Tray-Contatos ?  Tray-Contatos é projeto de teste feito em PHP 7 com LARAVEL 4. Bancos de dados: MYSQL ou PGSQL;
+
+Para rodar este projeto é necessário instalar o PHP/NPM seguido do composer/laravel e a instalação dos DBs MYSQL ou PGSQL. 
+Segue abaixo um dos comandos necessários:
+
+npm install npm@latest -g
+
+guia de instalação do composer: https://getcomposer.org/download/;
+guia de instalação laravel: https://laravel.com/docs/7.x/installation;
+
+Crie o banco tray01_db e rode o comando 'php artisan migrate' para criar as tabelas.
+configure o arquivo .env
+
+exemplo:
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=tray01_db
+DB_USERNAME=root
+DB_PASSWORD=
+
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.mailtrap.io
+MAIL_PORT=2525
+MAIL_USERNAME=8348064f4504b0
+MAIL_PASSWORD=252096155736fa
+MAIL_ENCRYPTION=tls
+MAIL_FROM_ADDRESS=67a6b4bea4-8e4cca@inbox.mailtrap.io
+MAIL_FROM_NAME="${APP_NAME}"
+.
+Após isso rode o software utilizando o comando 'php artisan serve'.
+Obrigado e boa sorte !
+-- João Vitor --
+
+
